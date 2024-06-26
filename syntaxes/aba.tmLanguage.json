@@ -1,0 +1,205 @@
+{
+  "scopeName": "source.aba",
+  "patterns": [
+    {
+      "name": "meta.header.aba",
+      "match": "^(0)(.{17})(.{2})(.{3})(.{7})(.{26})(.{6})(.{12})(.{6})(.{40})$",
+      "captures": {
+        "1": {
+          "name": "keyword.control.header.aba"
+        },
+        "2": {
+          "name": "constant.numeric.blank.aba"
+        },
+        "3": {
+          "name": "constant.numeric.reel-sequence-number.aba"
+        },
+        "4": {
+          "name": "entity.name.financial-institution.aba"
+        },
+        "5": {
+          "name": "constant.numeric.blank.aba"
+        },
+        "6": {
+          "name": "entity.name.user-supplying-file.aba"
+        },
+        "7": {
+          "name": "constant.numeric.user-id-number.aba"
+        },
+        "8": {
+          "name": "string.description.aba"
+        },
+        "9": {
+          "name": "constant.numeric.processing-date.aba"
+        },
+        "10": {
+          "name": "constant.numeric.blank.aba"
+        }
+      }
+    },
+    {
+      "name": "meta.detail.aba",
+      "match": "^(1)(.{7})(.{9})(.{1})(.{2})(.{10})(.{32})(.{18})(.{7})(.{9})(.{16})(.{8})$",
+      "captures": {
+        "1": {
+          "name": "keyword.control.detail.aba"
+        },
+        "2": {
+          "name": "constant.numeric.bank-state-branch.aba"
+        },
+        "3": {
+          "name": "constant.numeric.account-number.aba"
+        },
+        "4": {
+          "name": "constant.numeric.indicator.aba"
+        },
+        "5": {
+          "name": "constant.numeric.transaction-code.aba"
+        },
+        "6": {
+          "name": "constant.numeric.amount.aba"
+        },
+        "7": {
+          "name": "string.account-title.aba"
+        },
+        "8": {
+          "name": "string.lodgement-reference.aba"
+        },
+        "9": {
+          "name": "constant.numeric.trace-bsb.aba"
+        },
+        "10": {
+          "name": "constant.numeric.trace-account-number.aba"
+        },
+        "11": {
+          "name": "string.name-of-remitter.aba"
+        },
+        "12": {
+          "name": "constant.numeric.withholding-tax.aba"
+        }
+      }
+    },
+    {
+      "name": "meta.footer.aba",
+      "match": "^(7)(.{7})(.{12})(.{10})(.{10})(.{10})(.{24})(.{6})(.{40})$",
+      "captures": {
+        "1": {
+          "name": "keyword.control.footer.aba"
+        },
+        "2": {
+          "name": "constant.numeric.bsb-format-filler.aba"
+        },
+        "3": {
+          "name": "constant.numeric.blank.aba"
+        },
+        "4": {
+          "name": "constant.numeric.net-total-amount.aba"
+        },
+        "5": {
+          "name": "constant.numeric.credit-total-amount.aba"
+        },
+        "6": {
+          "name": "constant.numeric.debit-total-amount.aba"
+        },
+        "7": {
+          "name": "constant.numeric.blank.aba"
+        },
+        "8": {
+          "name": "constant.numeric.count-of-records.aba"
+        },
+        "9": {
+          "name": "constant.numeric.blank.aba"
+        }
+      }
+    },
+    {
+      "name": "meta.return.aba",
+      "match": "^(3)(.{7})(.{9})(.{1})(.{2})(.{10})(.{32})(.{18})(.{7})(.{9})(.{16})(.{8})$",
+      "captures": {
+        "1": {
+          "name": "keyword.control.return.aba"
+        },
+        "2": {
+          "name": "constant.numeric.bank-state-branch.aba"
+        },
+        "3": {
+          "name": "constant.numeric.account-number.aba"
+        },
+        "4": {
+          "name": "constant.numeric.indicator.aba"
+        },
+        "5": {
+          "name": "constant.numeric.transaction-code.aba"
+        },
+        "6": {
+          "name": "constant.numeric.amount.aba"
+        },
+        "7": {
+          "name": "string.account-title.aba"
+        },
+        "8": {
+          "name": "string.lodgement-reference.aba"
+        },
+        "9": {
+          "name": "constant.numeric.trace-bsb.aba"
+        },
+        "10": {
+          "name": "constant.numeric.trace-account-number.aba"
+        },
+        "11": {
+          "name": "string.name-of-remitter.aba"
+        },
+        "12": {
+          "name": "constant.numeric.withholding-tax.aba"
+        }
+      }
+    },
+    {
+      "name": "meta.refusal.aba",
+      "match": "^(5)(.{7})(.{9})(.{1})(.{2})(.{10})(.{32})(.{18})(.{7})(.{9})(.{16})(.{8})$",
+      "captures": {
+        "1": {
+          "name": "keyword.control.refusal.aba"
+        },
+        "2": {
+          "name": "constant.numeric.bank-state-branch.aba"
+        },
+        "3": {
+          "name": "constant.numeric.account-number.aba"
+        },
+        "4": {
+          "name": "constant.numeric.indicator.aba"
+        },
+        "5": {
+          "name": "constant.numeric.transaction-code.aba"
+        },
+        "6": {
+          "name": "constant.numeric.amount.aba"
+        },
+        "7": {
+          "name": "string.account-title.aba"
+        },
+        "8": {
+          "name": "string.lodgement-reference.aba"
+        },
+        "9": {
+          "name": "constant.numeric.trace-bsb.aba"
+        },
+        "10": {
+          "name": "constant.numeric.trace-account-number.aba"
+        },
+        "11": {
+          "name": "string.name-of-remitter.aba"
+        },
+        "12": {
+          "name": "constant.numeric.withholding-tax.aba"
+        }
+      }
+    }
+  ],
+  "repository": {},
+  "name": "ABA",
+  "fileTypes": [
+    "aba"
+  ]
+}
